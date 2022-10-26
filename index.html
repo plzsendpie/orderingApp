@@ -1,0 +1,55 @@
+<html>
+   <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+      <link rel="stylesheet" href="index.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="diner-app">
+          <div class="modal-smoke"></div>
+         <header>
+            <h1>Jimmy's Diner</h1>
+            <h3>The best burgers and pizzas in town.</h3>
+         </header>
+         <main>
+            <section id="diner-menu">
+            </section>
+            <section id="order-section">
+               <h4 class="your-order-title">Your Order</h4>
+               <div id="order-review">
+                  <div id="order-listing">
+                  </div>
+                  <hr class="total-line">
+                  <div id="total-price">
+                     Total Price: <span id="order-total"></span>
+                  </div>
+                  <button id="btn-complete-order">Complete Order</button>
+               </div>
+            </section>
+ 
+         </main>
+      </div>
+      
+                       <!-- card details modal -->
+            <div id="complete-order-modal">
+                <button type="button" id="btn-nvm">X</button>
+                <span class="modal-title">Enter Card Details</span>
+                <form id="pay-form">
+                    <input type="text" name="name" required placeholder="Enter your name">
+                    <input type="text" required placeholder="Enter card number">
+                    <input type="text" required placeholder="Enter CVV">                    
+                <div class="modal-btns">
+                    <button type="submit" id="btn-pay">Pay</button>
+                </div>
+               
+                </form>
+            </div>
+
+      
+      <script src="index.js" type="module"></script>
+   </body>
+</html>

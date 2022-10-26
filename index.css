@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: 'Smythe';
+    background: #DEDEDE;
+} 
+
+.diner-app{
+    background: white;
+    width: 600px;
+    margin: 20px auto;
+     border-radius: 1em 1em 1em 1em;   
+}
+
+h1, h3 {
+    color: white;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.4216px;
+    line-height: 14px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 24px;
+}
+
+
+
+header{
+    background: url("/burgerBanner.jpg");
+    padding: 46px;
+    background-size: cover;
+    background-position-y: -150px;
+    border-radius: 1em 1em 0 0;
+    margin-bottom: 67px;
+}
+
+.food-emoji {
+    font-size: 79px;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 45px 46px;
+    padding-bottom: 51px;
+    border-bottom: 1px solid #D2D2D2;
+    
+}
+
+.food-details{
+    list-style: none;
+    margin-top: -10px;
+    /* margin-left: -200px; */
+
+}
+
+.food-details li{
+        line-height: 35px;  
+}
+
+.food-name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+}
+
+.food-ingredients{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+}
+
+.food-price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.btn-add-food{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border:  1.5px solid #DEDEDE;
+    color: #3C3C3C;
+    font-size: 32px;
+    background: white;
+    font-family: 'Inter';
+    padding: 0px;
+    box-sizing : content-box;
+    cursor: pointer;
+}
+
+.food-and-pricing{
+    display: flex;
+}
+
+h4{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#order-review{
+    padding: 46px;
+    font-size: 28px;
+    margin-top: -50px;  
+}
+.order-item{  
+
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.btn-remove {
+    color: #BBBBBB;
+    background: none;
+    border:none;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+
+#order-section{
+    display: none;
+}
+
+.total-line {
+    
+    border: 2px solid #393333;
+}
+
+#total-price{
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-complete-order, #btn-pay, #btn-nvm{
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-top: 53px;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 18px;
+    padding: 18px;
+    background: #16DB99;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#btn-nvm{
+    position: absolute;
+    right: 0;
+    top: -55px;
+    cursor: pointer;
+    background: none;
+    color: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.modal-btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal-title{
+     font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+
+#complete-order-modal {
+    height: 370px;
+    width: 477px;
+    position: relative;
+    margin: -800px auto;
+    color: black;
+    background: white;
+    box-shadow: 0px 0px 62px 35px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0px 62px 35px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 62px 35px rgba(0,0,0,0.25);
+    padding: 47px 24px;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+}
+
+#complete-order-modal form {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+}
+
+#complete-order-modal form input {
+    margin-top: 17px;
+    border: 1.29664px solid #757575;
+    border-radius: 3.88991px;
+    padding: 16px 26px;
+}
+
+.modal-smoke{
+    background:black;
+  position:absolute;
+  height: 200%;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  opacity: .5;
+  display: none;
+}
+
+
+.thanks-div {
+    /* width: 504px; */
+    /* height: 120px; */
+    background: #ECFDF5;
+    color: #065F46;
+    border-radius: 5px;
+    text-align: center;
+    padding: 51px;
+    
+}
